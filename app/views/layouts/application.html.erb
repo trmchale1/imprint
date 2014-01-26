@@ -7,8 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="navbar-header">
+		<nav class="navbar-inner">
+			<nav class="container">
+				<a href="#" class="brand"> Imprint </a>
+			</nav>
+		</nav>
+		</div>
+	</nav>
+	<div class="container">
+		<%= yield %>
+	</div>
 </body>
 </html>
